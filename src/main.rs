@@ -13,6 +13,22 @@ use std::io::BufReader;
 use std::path::Path;
 use std::sync::Arc;
 
+// NEXT STEPS -------------------------------------------------------------------------
+// TODO: Add some JavaScript to the page to generate a dropdown of fandoms
+// TODO: Make the dropdown selection create another selection list of characters
+// TODO: Set up a DIV for adding columns, add a button which adds columns to the DIV
+// TODO: (Each column is another instance of the fandom -> characters combo made above)
+// TODO: ...I'm gonna need a lot more fandoms and characters before taking the joke live...
+
+// BACKLOG ----------------------------------------------------------------------------
+// TODO: Add "Ship It" button and record shipped groupings on server... for science
+// TODO: (Do I need a privacy policy for doing this?!)
+// TODO: Randomly select a character from a fandom (per column)
+// TODO: Randomly select fandom AND character (per column)
+// TODO: Randomize the whole page's selections
+// TODO: (Maybe just... "lock" checkboxes next to selected things?)
+// TODO: Allow users to add missing characters and fandoms... (grimace)
+
 // Data about a character in a given fandom
 #[derive(Serialize, Deserialize, Debug)]
 struct FandomCharacter {
