@@ -1,0 +1,6 @@
+
+[development]
+template_dir = "data/dev_templates/"
+
+[production]
+template_dir = "data/prod_templates/"

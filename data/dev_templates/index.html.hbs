@@ -1,0 +1,10 @@
+<h1>Found Fandoms:</h1>
+{{#each fandoms}}
+<p>
+    {{this.title}}</p>
+<ul>
+    {{#each this.characters}}
+    <li>{{this.name}}</li>
+    {{/each}}
+</ul>
+{{/each}}

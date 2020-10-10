@@ -1,0 +1,38 @@
+{
+    "fandoms": [
+        {
+            "title": "Doctor Who",
+            "characters": [
+                {
+                    "name": "Amy Pond"
+                },
+                {
+                    "name": "Clara Oswald"
+                },
+                {
+                    "name": "River Song"
+                },
+                {
+                    "name": "Rory Williams"
+                },
+                {
+                    "name": "Rose Tyler"
+                }
+            ]
+        },
+        {
+            "title": "Harry Potter",
+            "characters": [
+                {
+                    "name": "Harry Potter"
+                },
+                {
+                    "name": "Hermione Granger"
+                },
+                {
+                    "name": "Hagrid"
+                }
+            ]
+        }
+    ]
+}
